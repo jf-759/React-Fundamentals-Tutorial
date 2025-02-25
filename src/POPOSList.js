@@ -1,4 +1,5 @@
 import POPOSSpace from './POPOSSpace';
+import './POPOSList.css';
 
 function POPOSList() {
     return (
@@ -47,16 +48,6 @@ function POPOSList() {
                 name='Empire Park'
                 address='123 Empire Park'
                 image='empire-park.jpg' 
-            />
-            <POPOSSpace
-                name='Garden Terrace'
-                address='123 Garden Terrace at 150 California'
-                image='garden-terrace-at-150-california.jpg' 
-            />
-            <POPOSSpace
-                name='Transamerica Redwood Park'
-                address='123 Transamerica Redwood Park'
-                image='transamerica-redwood-park.jpg' 
             />
         </div>
     )
