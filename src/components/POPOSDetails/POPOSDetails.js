@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router'
-import data from '../../sfpopos-data.json'
+import data from '../../sfpopos-data.js'
 import './POPOSDetails.css'
 
 function POPOSDetails(props) {
@@ -11,7 +11,7 @@ function POPOSDetails(props) {
   return (
     <div className="POPOSDetails">
       <div className="POPOSDetails-image">
-        <img src={`${process.env.PUBLIC_URL}images/${images[0]}`} />
+        <img src={`/images/${images}`} alt="" />
       </div>
       <div className="POPOSDetails-info">
         <h1 className="POPOSDetails-title">{ title }</h1>
