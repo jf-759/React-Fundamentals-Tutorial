@@ -1,8 +1,9 @@
 import './POPOSSpace.css';
+import { Link } from 'react-router-dom'
 
 
 function POPOSSpace(props) {
-    const { name, image, address, hours } = props
+    const { name, image, address, hours, id } = props
     return (
         <div className='POPOSSpace'>
             <img src={`${process.env.PUBLIC_URL}/images/${image}`} 
@@ -10,9 +11,18 @@ function POPOSSpace(props) {
             height="300" 
             alt="Hello" 
             />
-            <h1>{name}</h1>
+            <h1>
+                <Link to={`/details/${id}`}>
+                    {name}
+                </Link>
+            </h1>
             <div>{address}</div>
             <div>{hours}</div>
+            <div>
+                <Link to={`/details/${id}`}>
+                    <img src={`${process.env.PUBLIC_URL}images/${image}`} width="300" height="300" alt="Hello" />
+                </Link>
+            </div>
         </div>
     )
 }
