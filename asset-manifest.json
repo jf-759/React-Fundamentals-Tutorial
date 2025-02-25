@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jf-759/React-Fundamentals-Tutorial/static/css/main.1df3c52f.css",
-    "main.js": "/jf-759/React-Fundamentals-Tutorial/static/js/main.00c60363.js",
-    "static/js/453.be6cdab1.chunk.js": "/jf-759/React-Fundamentals-Tutorial/static/js/453.be6cdab1.chunk.js",
-    "index.html": "/jf-759/React-Fundamentals-Tutorial/index.html",
-    "main.1df3c52f.css.map": "/jf-759/React-Fundamentals-Tutorial/static/css/main.1df3c52f.css.map",
-    "main.00c60363.js.map": "/jf-759/React-Fundamentals-Tutorial/static/js/main.00c60363.js.map",
-    "453.be6cdab1.chunk.js.map": "/jf-759/React-Fundamentals-Tutorial/static/js/453.be6cdab1.chunk.js.map"
+    "main.css": "/React-Fundamentals-Tutorial/static/css/main.1df3c52f.css",
+    "main.js": "/React-Fundamentals-Tutorial/static/js/main.da50b816.js",
+    "static/js/453.be6cdab1.chunk.js": "/React-Fundamentals-Tutorial/static/js/453.be6cdab1.chunk.js",
+    "index.html": "/React-Fundamentals-Tutorial/index.html",
+    "main.1df3c52f.css.map": "/React-Fundamentals-Tutorial/static/css/main.1df3c52f.css.map",
+    "main.da50b816.js.map": "/React-Fundamentals-Tutorial/static/js/main.da50b816.js.map",
+    "453.be6cdab1.chunk.js.map": "/React-Fundamentals-Tutorial/static/js/453.be6cdab1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1df3c52f.css",
-    "static/js/main.00c60363.js"
+    "static/js/main.da50b816.js"
   ]
 }
