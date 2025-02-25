@@ -16,7 +16,7 @@ function Title() {
                 <NavLink 
                 className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
                 to="/about">About</NavLink>
-          </div>
+            </div>
   
         </header>
       </div>
